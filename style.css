@@ -39,5 +39,39 @@ input[type="submit"] { /*Input type es el tipo de input que se va a utilizar*/
 }
 
 input[type="submit"]:hover { /*Input hover es el input cuando el cursor está encima*/
-  background-color: #45a049;
+  background-color: #000000;
+}
+#login-button{
+  width: 95%; 
+  height: 50px;
+  font-size: 20px;
+  background-color: #1877f2;
+  color: #FFF;
+  padding: 10px 20px; 
+  border: 1px; solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+#contraseña{
+
+
+}
+#Create-account{
+  width: 47%; 
+  height: 50px;
+  font-size: 17px;
+  background-color: #42b72a;
+  color: #FFF;
+  padding: 10px;
+  border: 1px; solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+#forget-password{
+  width: ;
+  height: ;
+  cursor: pointer;
+  text-align: center;
 }
